@@ -15,7 +15,9 @@ other way: this library has **no dependency on the Ruby runtime**.
 !!! success "Status: pure-Go, CGO=0, differential-tested"
     A faithful pure-Go port of Ruby's `toml`, validated against reference Ruby, at 100%
     coverage, `gofmt` + `go vet` clean, CI green across the six 64-bit Go targets
-    and three OSes.
+    and three OSes. **708 of 709 toml-test v1.0.0 cases (99.86%)** resolve to the
+    reference verdict — the engine's toml-rb-faithful ceiling; see
+    [Reference › Conformance](reference.md#conformance).
 
 ## Install
 
